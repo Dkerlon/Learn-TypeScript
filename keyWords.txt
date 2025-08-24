@@ -1,0 +1,19 @@
+as ELEMENT/TYPE;
+instance of;
+satisfies;
+Record<string,number | boolean>;
+implements/extends;
+
+type indexType = {
+    [prop: string]:string | number;
+}
+
+type, interface;
+
+Overloads functions;
+
+let roles = ['admin','comum','user'] as const; -> Semelhante a Enum ou let roles: ['admin','comum','user'] = ['admin','comum','user'];
+
+public/private/function to get type -> function getType(obj: source) return obj.type === 'type'
+
+operadores ?, & e |
