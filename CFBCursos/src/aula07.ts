@@ -1,0 +1,1 @@
+let coisas: [string,number,boolean] = ["corda",5,true]; //Tupla
